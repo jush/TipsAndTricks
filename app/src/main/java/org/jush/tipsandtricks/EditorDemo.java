@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.view.View;
+import android.widget.TextView;
 import java.util.List;
 
 @SuppressWarnings({ "unused", "StatementWithEmptyBody" })
@@ -14,6 +15,8 @@ public class EditorDemo {
     // Ctrl + N (Go to class)
     // Ctrl + F12 (search 'hide' in FullscreenActivity.java)
     // Go to symbol (ctrl + shift + alt + n MILLIS)
+    // Enable Git.
+    // Limit git message
 
     public boolean completion(String first, String second) {
         // Use tab to replace instead of enter
@@ -94,7 +97,14 @@ public class EditorDemo {
     }
 
     public void replaceCalls(View view, Drawable drawable) {
+        // Structurally replace with Expected type of expression
+
         view.findViewById(R.id.dummy_button).setBackgroundDrawable(drawable);
+
+        TextView fullscreenContent = (TextView) view.findViewById(R.id.fullscreen_content);
+        fullscreenContent.
+            setBackgroundDrawable(drawable);
+
         this.setBackgroundDrawable(drawable);
     }
 
