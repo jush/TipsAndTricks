@@ -10,7 +10,7 @@ import java.util.List;
 @SuppressWarnings({ "unused", "StatementWithEmptyBody" })
 public class EditorDemo {
     // Activate line numbers
-    // Key promoter plug-in
+    // Key promoter plug-in (https://github.com/athiele/key-promoter-fork)
     // AutoScroll from source
     // Ctrl + N (Go to class)
     // Ctrl + F12 (search 'hide' in FullscreenActivity.java)
