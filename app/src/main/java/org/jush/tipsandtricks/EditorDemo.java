@@ -155,4 +155,14 @@ public class EditorDemo {
       - Debug.waitForDebugger()
       - Debug mark (Plaid - HomeActivity 168)
      */
+
+    /*
+    Editor|Colors & Fonts|Android Logcat
+    Assert:  #AA66CC
+    Debug:   #33B5E5
+    Error:   #FF4444
+    Info:    #99CC00
+    Verbose: #FFFFFF
+    Warning: #FFBB33
+     */
 }
