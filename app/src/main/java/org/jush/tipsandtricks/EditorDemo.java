@@ -9,6 +9,7 @@ import java.util.List;
 
 @SuppressWarnings({ "unused", "StatementWithEmptyBody" })
 public class EditorDemo {
+    // Ubuntu? Unity Tweak Tool
     // Activate line numbers
     // Key promoter plug-in (https://github.com/athiele/key-promoter-fork)
     // AutoScroll from source
@@ -33,6 +34,12 @@ public class EditorDemo {
         Drawable drawable = null;
     }
 
+    public void smartJoin() {
+        final String description = "Multiple " +
+            "line " +
+            "text";
+    }
+
 
     public String selection(String first, String second, String third, String fourth) {
         // Use Extend Selection, Shrink selection instead of mouse
@@ -50,6 +57,7 @@ public class EditorDemo {
     }
 
     public void instanceOfCheck(Object parameter) {
+        // Intention vs auto-complete
         if (parameter instanceof Context) {
         }
     }
@@ -64,6 +72,15 @@ public class EditorDemo {
     public void liveTemplate1(List<String> list) {
         // for (int k = 0; k < 100; k++) {...}
         // with postfix
+        // nn
+        // ctrl + j
+    }
+
+
+    // Manipulate Ifs with Intentions
+    public void conditions(boolean a, boolean b, boolean c, boolean d) {
+        if (!(!(c || d) || !(a || b))) {
+        }
     }
 
 
@@ -111,4 +128,31 @@ public class EditorDemo {
     private void setBackgroundDrawable(Drawable drawable) {
 
     }
+
+
+    public void designTimeAttributes() {
+        // Switch tho ST laps_fragment to use showIn
+        // Switch to ST friends_fragment:
+        /*
+        if (isInEditMode()) {
+            userName.setText("Testuser");
+            userWorkoutTitle.setText("Walking, Yesterday ");
+            userWorkoutTitle.setVisibility(View.VISIBLE);
+            userWorkoutDescription.setText("No description");
+            userWorkoutDescription.setVisibility(View.VISIBLE);
+            profileImage.setImageResource(R.drawable.default_userimage);
+        }
+
+         */
+    }
+
+    /*
+     Debugging (Plaid - FeedAdapter):
+      - Attach to process
+      - Debug mute
+      - Debug condition (position )
+      - Debug no suspend but log
+      - Debug.waitForDebugger()
+      - Debug mark (Plaid - HomeActivity 168)
+     */
 }
