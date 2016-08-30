@@ -135,12 +135,7 @@ public class EditorDemo {
         // Switch to ST friends_fragment:
         /*
         if (isInEditMode()) {
-            userName.setText("Testuser");
-            userWorkoutTitle.setText("Walking, Yesterday ");
-            userWorkoutTitle.setVisibility(View.VISIBLE);
-            userWorkoutDescription.setText("No description");
-            userWorkoutDescription.setVisibility(View.VISIBLE);
-            profileImage.setImageResource(R.drawable.default_userimage);
+            //Code only run in Android Studio design
         }
 
          */
