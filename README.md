@@ -6,7 +6,7 @@ This android project does nothing. The only interesting part is [EditorDemo](app
 Based on the follow resources:
 * https://www.youtube.com/watch?v=Y2GC6P5hPeA
 * https://www.youtube.com/watch?v=hHnTIMjd1Y8
-* https://medium.com/google-developer-experts/configuring-android-studio-
+* https://medium.com/google-developer-experts/configuring-android-studio-4aa4f54f1153
 
 Example app use to show some examples:
 * https://github.com/nickbutcher/plaid
